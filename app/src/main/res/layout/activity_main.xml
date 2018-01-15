@@ -78,7 +78,7 @@
             android:drawableTop="@drawable/tab_menu_more"
             android:gravity="center"
             android:textColor="@drawable/tab_menu_more_text"
-            android:text="更多"/>
+            android:text="我的"/>
 
     </LinearLayout>
 
