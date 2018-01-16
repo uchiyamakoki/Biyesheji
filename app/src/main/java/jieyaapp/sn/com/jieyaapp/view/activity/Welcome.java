@@ -1,4 +1,4 @@
-package jieyaapp.sn.com.jieyaapp;
+package jieyaapp.sn.com.jieyaapp.view.activity;
 
 /**
  * Created by John on 2017/11/14.
@@ -8,8 +8,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Window;
-import android.view.WindowManager;
+
+import jieyaapp.sn.com.jieyaapp.R;
 
 /** 开场欢迎动画 */
 public class Welcome extends Activity {
