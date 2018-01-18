@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/dealimg1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/deal_img"
+            android:scaleType="fitStart"/>
+        <TextView
+            android:id="@+id/textd1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="一周压力规划"
+            android:gravity="center"
+            android:textColor="@color/windowBackground"
+            android:textSize="27sp"
+            android:layout_marginTop="60sp"/>
+        <Button
+            android:id="@+id/dealbutton1"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg_white"
+            android:gravity="center"
+            android:text="创建"
+            android:layout_below="@+id/textd1"
+            android:textColor="@color/lightblue"
+            android:layout_marginLeft="130sp"
+            android:textSize="21sp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

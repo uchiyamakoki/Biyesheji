@@ -10,6 +10,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import jieyaapp.sn.com.jieyaapp.R;
+import jieyaapp.sn.com.jieyaapp.view.fragment.DealFragment;
 import jieyaapp.sn.com.jieyaapp.view.fragment.FirstFragment;
 
 public class MainActivity extends Activity implements View.OnClickListener{
@@ -22,7 +23,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     private FrameLayout ly_content;
 
-    private FirstFragment f1,f2,f3,f4;
+    private FirstFragment f2,f3,f4;
+    private DealFragment f1;
     private FragmentManager fragmentManager;
 
     @Override
@@ -80,7 +82,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 selected();
                 tabDeal.setSelected(true);
                 if(f1==null){
-                    f1 = new FirstFragment("第一个Fragment");
+                    f1 = new DealFragment();
                     transaction.add(R.id.fragment_container,f1);
                 }else{
                     transaction.show(f1);
