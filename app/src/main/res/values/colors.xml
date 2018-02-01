@@ -17,4 +17,5 @@
     <color name="seashell">#FFF5EE</color><!--海贝色 -->
    <color name="lightblue">#ADD8E6</color><!--亮蓝色 -->
    <color name="darkgrey">#A9A9A9</color><!--暗灰色 -->
+    <color name="blue_q">#1296db</color>
 </resources>
