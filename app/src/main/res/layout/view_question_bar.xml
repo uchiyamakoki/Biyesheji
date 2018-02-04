@@ -8,15 +8,23 @@
     >
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_weight="3"
         android:orientation="horizontal">
         <TextView
             android:id="@+id/tv_back"
            style="@style/BarItem"
             android:background="@drawable/selector_bar_item_back"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择最符合你当前状态的图片"
+            android:textSize="26sp"
+            android:textColor="@color/transparent"
+            android:layout_marginTop="12dp"/>
 
     </LinearLayout>
 
