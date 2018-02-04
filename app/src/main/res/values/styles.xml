@@ -22,5 +22,20 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+    <!-- 练习素材-->
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
 
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TranslucentTheme" parent="AppTheme">
+    <!--在Android 4.4之前的版本上运行，直接跟随系统主题-->
+    </style>
 </resources>
